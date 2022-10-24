@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    width: 300px;
+    height: 300px;
+    border: solid black;
+}
+
+.div1{
+    display: flex;
+    background-color: darkred;
+    width: 50%;
+    height: 600px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div2{
+    background-color: blue;
+    width: 700px;
+    height: 400px;
+}
